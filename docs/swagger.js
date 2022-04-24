@@ -14,9 +14,9 @@ const swaggerDefinition = {
     {
       url: "http://localhost:3001/api",
     },
-    //{
-    //  url: "https://afternoon-journey-32165.herokuapp.com/api",
-    //},
+    {
+      url: "https://quiet-sierra-69887.herokuapp.com/api",
+    },
   ],
   components: {
     securitySchemes:{
@@ -45,7 +45,7 @@ const swaggerDefinition = {
           name: {
             type: "string",
           },
-          age: {
+          edad: {
             type: "integer",
           },
           email: {

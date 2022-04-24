@@ -4,7 +4,7 @@ const UserScheme = new mongoose.Schema({
     name:{
         type: String
     },
-    age:{
+    edad:{
         type:Number
     },
     email:{
